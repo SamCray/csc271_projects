@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Uplift Bite</title>
+    </head>
+    <body>
+        <!--Looked up color on w3schools.com-->
+        <body style ="background-color: #00BFFF" >
+        <!--Looked at previous  work from CSC106 to add color to background-->
+        <!-- Where the logo will be-->
+         <header style="text-align: center;">
+            <h1>Uplift Bite - Homepage</h1>
+            <!--logo-->
+            <img src="Cray_Logo.png" 
+            alt="Uplift Bite logo" 
+            width="150"
+            style="border-radius: 30%">
+            <!--I did ask for Al help to make my logo centered and curved-->
+         </header>
+
+         <nav style="position: absolute; top: 20px; right: 20px;">
+            <!--Had help with moving navigation links to be on the top right -->
+            <ul>
+                <li><a href="index.html">Features</a></li>
+                <li><a href="recipes.html">Recipes & Tips</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+
+         <hr>
+
+         <main>
+            <section>
+                <h2>Inspirational Quote</h2>
+                <p><em>"Your health is your wealth." - Unknown</em></p>
+            </section>
+<!--Would like for this be a random quote generator somehow (if its not hard)-->
+            <hr>
+
+            <section>
+                <h2>Health Goals</h2>
+                <p><strong>Set Goals</strong> to track your physical and mental wellness.</p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Tracking</h2>
+                <p>Track your daily progress and stay on top of your habits.</p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Recipes</h2>
+                <p>Discover easy, nutritious, and tasty recipes that support your goals.</p>
+                <ul>
+                    <li>Breakfast</li>
+                    <li>Lunch</li>
+                    <li>Dinner</li>
+                    <li>Snacks</li>
+                    <li>Desserts</li>
+                </ul>
+            </section>
+<!--Maybe put an image for each section-->
+            <hr>
+         </main>
+
+         <!--Footer-->
+         <footer>
+            <p>Contact us at: <a href="myemail">samantha.cray@uri.edu</a></p>
+         </footer>
+    </body>
+</html>
