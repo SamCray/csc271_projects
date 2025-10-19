@@ -3,74 +3,57 @@
     <head>
         <meta charset = "UTF-8"> <!--Not sure if needed...learned from previous class-->
         <title>Uplift Bite</title>
+        <meta name="description" content="Uplift Bite helps you build healthy habits with tips, recipes, and tools. A friendly site for tracking meals, boosting motivation, and reaching your goals.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--tags-->
+        <meta property="og:title" content="Uplift Bite">
+        <meta property="og:description" content="A wellness website with recipes, tips, and tools to help you live a healthier life.">
+        <meta property="og:image" content="Cray_Logo.png">
+        <meta property="og:url" content="https://upliftbite.com/main.html">
+
         <link rel="stylesheet" href="styles.css">
+    
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4CBJXSYXH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z4CBJXSYXH');
+</script>
     </head>
-    <body style ="background-color: #00BFFF" >
+<body style="background-color: #00BBFF; font-family: Arial, sans-serif; margin: 20px;">
 
-    <div class="header">
-        <!-- Where the logo will be-->
-         <header style="text-align: center;">
-            <h1>Uplift Bite - Homepage</h1>
-            <!--logo-->
-            <img src="Cray_Logo.png" 
-            alt="Uplift Bite logo" 
-            width="150"
-            style="border-radius: 30%">
-         </header>
+<!--the header-->
+<div class="header" style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="Cray_Logo.png" alt="Uplift Bite logo - a healthy habits brand" width="120" style="border-radius: 30%;">
+    <nav>
+        <a href="Features1.html" style="margin: 0 10px; padding: 5px 10px; background: #00BFFF; border-radius: 5px; color: white; text-decoration: none;">Features</a>
+        <a href="Recipes&Tips1.html" style="margin: 0 10px; padding: 5px 10px; background: #00BFFF; border-radius: 5px; color: white; text-decoration: none;">Recipes & Tips</a>
+    </nav>
+</div>
 
-         <nav style="position: absolute; top: 20px; right: 20px;">
-            <!--Had help with moving navigation links to be on the top right -->
-            <ul>
-                <li><a href="Recipes&Tips1.html">Recipes & Tips</a></li>
-                <li><a href="Features1.html">Features</a></li>
-            </ul>
-         </nav>
-         </div>
+<!-- Main Content -->
+<header style="text-align: center; margin-top: 40px;">
+    <h1>Welcome to Uplift Bite</h1>
+    <p>Your go-to place for building healthier habits through simple recipes, smart tracking tools, and motivation that works.</p>
+</header>
 
-         <hr>
+<section style="text-align: center; margin-top: 40px;">
+    <h2>What You Can Do Here</h2>
+    <ul style="list-style-type: none; padding: 0;">
+        <li>✔ Discover easy and healthy recipes</li>
+        <li>✔ Track your wellness journey</li>
+        <li>✔ Get smart advice and motivation</li>
+    </ul>
+    <!--copied and pasted the checkmark symbol-->
+</section>
 
-<div class="content-box">
-         <main>
-            <section>
-                <h2>Inspirational Quote</h2>
-                <p><em>"Your health is your wealth." - Unknown</em></p>
-            </section>
-<!--Would like for this be a random quote generator somehow (if its not hard)-->
-            <hr>
+<!-- Footer -->
+<footer style="margin-top: 50px; text-align: center;">
+    <p>Contact us at: <a href="mailto:samantha.cray@uri.edu">samantha.cray@uri.edu</a></p>
+</footer>
 
-            <section>
-                <h2>Health Goals</h2>
-                <p><strong>Set Goals</strong> to track your physical and mental wellness.</p>
-            </section>
-
-            <hr>
-
-            <section>
-                <h2>Tracking</h2>
-                <p>Track your daily progress and stay on top of your habits.</p>
-            </section>
-
-            <hr>
-
-            <section>
-                <h2>Recipes</h2>
-                <p>Discover easy, nutritious, and tasty recipes that support your goals.</p>
-                <ul>
-                    <li>Breakfast</li>
-                    <li>Lunch</li>
-                    <li>Dinner</li>
-                    <li>Snacks</li>
-                    <li>Desserts</li>
-                </ul>
-            </section>
-<!--Maybe put an image for each section-->
-            <hr>
-         </main>
-        </div>
-
-         <!--Footer-->
-         <footer>
-            <p>Contact us at: <a href="myemail">samantha.cray@uri.edu</a></p>
-         </footer>
-    </body>
+</body>
 </html>
