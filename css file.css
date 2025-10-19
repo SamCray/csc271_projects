@@ -1,0 +1,119 @@
+css file
+
+/* Samantha Cray
+css file for my website */
+
+/* Base page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6F7FF;
+    margin: 20px;
+    color: #333;
+}
+
+/* Header and nav */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00BFFF;
+}
+
+nav a {
+    background-color: #00BFFF;
+    color: white;
+    padding: 8px 14px;
+    margin-left: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #009ACD;
+}
+
+/* Headings */
+h1, h2 {
+    color: #0077B6;
+}
+
+/* Paragraphs */
+p {
+    max-width: 700px;
+    margin: 0 auto 10px auto;
+    line-height: 1.6;
+}
+
+/* Main content box */
+.content-box {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #DFF6FF;
+}
+
+/* Form Elements */
+form {
+    margin-top: 15px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #00BFFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #009ACD;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+/* YouTube Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 6px;
+}
