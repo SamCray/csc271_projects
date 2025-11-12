@@ -1,102 +1,62 @@
 <!DOCTYPE html>
-<!-- Description: Recipes & Tips page for Uplift Bite-->
+<html lang="en">
 <head>
-    <title>Recipes & Tips</title>
-     <meta name="description" content="Find easy, healthy recipes and wellness tips to support your lifestyle. Uplift Bite helps you stay motivated and eat well.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Healthy Recipes & Wellness Tips">
-    <meta property="og:description" content="Discover healthy meals, lifestyle tips, and stay on track with your wellness goals.">
-    <meta property="og:image" content="Cray_Logo.png">
-    <meta property="og:url" content="https://upliftbite.com/Recipes&Tips1.html">
-
-    <link rel="stylesheet" href="styles.css">
-
-     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4CBJXSYXH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z4CBJXSYXH');
-</script>
+  <meta charset="UTF-8">
+  <title>Recipes & Tips</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="upliftbite.js"></script>
 </head>
-<body style="background-color: #00BFFF; font-family: Arial, sans-serif; margin: 20px;">
+<body>
+  <div class="page-wrapper">
 
-<!-- Header -->
-<div class="header" style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="Cray_Logo.png" alt="Uplift Bite logo - healthy lifestyle brand" width="120" style="border-radius: 30%;">
-    <nav>
-        <a href="main.html" style="margin: 0 10px; padding: 5px 10px; background: #00BFFF; border-radius: 5px; color: white; text-decoration: none;">Home</a>
-        <a href="Features1.html" style="margin: 0 10px; padding: 5px 10px; background: #00BFFF; border-radius: 5px; color: white; text-decoration: none;">Features</a>
-    </nav>
-</div>
+    <div class="header">
+      <img src="Cray_Logo.png" alt="Uplift Bite logo" width="120" style="border-radius:30%;">
+      <nav>
+        <a href="main.html">Home</a>
+        <a href="Features1.html">Features</a>
+      </nav>
+    </div>
 
-<!-- Main Header -->
-<header style="text-align: center; margin-top: 20px;">
-    <h1>Healthy Recipes & Tips</h1>
-    <p>Welcome to our Recipes & Tips page! Explore nutritious and easy-to-make recipes that support your health goals.</p>
-    <p>We also provide motivation and practical advice to help you make better daily choices.</p>
-</header>
+    <div class="content-box">
+      <h1 style="text-align:center;">Healthy Recipes & Tips</h1>
 
-<!-- Sample Meal Plan -->
-<div class="content-box" style="margin-top: 40px;">
-    <h2>Sample Healthy Meal Plan</h2>
-    <table border="1" style="margin-bottom: 20px;">
+      <table border="1" style="width:100%; margin-bottom:20px;">
         <tr>
-            <td>
-                <table border="1">
-                    <tr>
-                        <th>Meal</th>
-                        <th>Example</th>
-                    </tr>
-                    <tr>
-                        <td>Breakfast</td>
-                        <td>Fruit smoothie bowl with chia seeds</td>
-                    </tr>
-                    <tr>
-                        <td>Lunch</td>
-                        <td>Quinoa salad with grilled chicken</td>
-                    </tr>
-                    <tr>
-                        <td>Dinner</td>
-                        <td>Baked salmon with roasted vegetables</td>
-                    </tr>
-                </table>
-            </td>
-            <td style="padding-left: 20px;">
-                <img src="/imagesv2/fruitsmoothie.jpg" alt="Fruit smoothie bowl with chia seeds" width="200">
-                <img src="/imagesv2/salmon.jpg" alt="Baked salmon with vegetables" width="200" height="200">
-            </td>
+          <td>
+            <table border="1" style="width:100%;">
+              <tr><th>Meal</th><th>Example</th></tr>
+              <tr><td>Breakfast</td><td>Fruit smoothie bowl with chia seeds</td></tr>
+              <tr><td>Lunch</td><td>Quinoa salad with grilled chicken</td></tr>
+              <tr><td>Dinner</td><td>Baked salmon with roasted vegetables</td></tr>
+            </table>
+          </td>
+          <td style="text-align:center; padding-left:20px;">
+            <img src="/imagesv2/fruitsmoothie.jpg" alt="Fruit smoothie bowl" class="recipe-img">
+            <img src="/imagesv2/salmon.jpg" alt="Baked salmon" class="recipe-img">
+          </td>
         </tr>
-    </table>
+      </table>
 
-    <hr>
-    <h2>Share Your Healthy Recipe</h2>
-    <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
+      <h2>Share Your Healthy Recipe</h2>
+      <form>
+        <label>Name:</label><br>
+        <input type="text"><br><br>
         <label>Meal Type:</label><br>
-        <input type="checkbox" name="meal type" value="Breakfast">Breakfast<br>
-        <input type="checkbox" name="meal type" value="Lunch">Lunch<br>
-        <input type="checkbox" name="meal type" value="Dinner">Dinner<br>
-        <input type="checkbox" name="meal type" value="Desserts">Desserts<br><br>
-
+        <input type="checkbox">Breakfast<br>
+        <input type="checkbox">Lunch<br>
+        <input type="checkbox">Dinner<br>
+        <input type="checkbox">Desserts<br><br>
         <input type="submit" value="Submit Recipe">
-    </form>
-    <hr>
+      </form>
+    </div>
 
-    <h2>Overnight Oats - <em>Easy Breakfast Idea</em></h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mI--h_Ey6Ck?si=pG5lU2kJtatMrqsZ" title="YouTube video player" allowfullscreen></iframe>
-</div>
+    <footer>
+      <p>Contact us: <a href="mailto:samantha.cray@uri.edu">samantha.cray@uri.edu</a></p>
+    </footer>
 
-<!-- Footer -->
-<footer style="margin-top: 40px; text-align: center;">
-    <p>Contact us: <a href="mailto:samantha.cray@uri.edu">samantha.cray@uri.edu</a></p>
-</footer>
-
+  </div>
 </body>
 </html>
+
+

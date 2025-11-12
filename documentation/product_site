@@ -1,76 +1,36 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF-8"> <!--Not sure if needed...learned from previous class-->
-        <title>Uplift Bite</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body style ="background-color: #00BFFF" >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uplift Bite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="upliftbite.js"></script>
+</head>
+<body>
+  <div class="page-wrapper"> <!-- blue border -->
 
-    <div class="header">
-        <!-- Where the logo will be-->
-         <header style="text-align: center;">
-            <h1>Uplift Bite - Homepage</h1>
-            <!--logo-->
-            <img src="Cray_Logo.png" 
-            alt="Uplift Bite logo" 
-            width="150"
-            style="border-radius: 30%">
-         </header>
+    <div class="header"> <!-- logo + nav inside blue border -->
+      <img src="Cray_Logo.png" alt="Uplift Bite logo" width="120" style="border-radius:30%;">
+      <nav>
+        <a href="Features1.html">Features</a>
+        <a href="Recipes&Tips1.html">Recipes & Tips</a>
+      </nav>
+    </div>
 
-         <nav style="position: absolute; top: 20px; right: 20px;">
-            <!--Had help with moving navigation links to be on the top right -->
-            <ul>
-                <li><a href="Recipes&Tips1.html">Recipes & Tips</a></li>
-                <li><a href="Features1.html">Features</a></li>
-            </ul>
-         </nav>
-         </div>
+    <div class="content-box"> <!-- white rectangle content -->
+      <h1 style="text-align:center;">Welcome to Uplift Bite</h1>
+      <p style="text-align:center;">Your go-to place for building healthier habits through simple recipes, smart tracking tools, and motivation that works.</p>
 
-         <hr>
+      <h2 style="text-align:center;">Daily Motivation</h2>
+      <p id="dailyQuote" style="text-align:center; font-style: italic;"></p>
+    </div>
 
-<div class="content-box">
-         <main>
-            <section>
-                <h2>Inspirational Quote</h2>
-                <p><em>"Your health is your wealth." - Unknown</em></p>
-            </section>
-<!--Would like for this be a random quote generator somehow (if its not hard)-->
-            <hr>
+    <footer>
+      <p>Contact us: <a href="mailto:samantha.cray@uri.edu">samantha.cray@uri.edu</a></p>
+    </footer>
 
-            <section>
-                <h2>Health Goals</h2>
-                <p><strong>Set Goals</strong> to track your physical and mental wellness.</p>
-            </section>
-
-            <hr>
-
-            <section>
-                <h2>Tracking</h2>
-                <p>Track your daily progress and stay on top of your habits.</p>
-            </section>
-
-            <hr>
-
-            <section>
-                <h2>Recipes</h2>
-                <p>Discover easy, nutritious, and tasty recipes that support your goals.</p>
-                <ul>
-                    <li>Breakfast</li>
-                    <li>Lunch</li>
-                    <li>Dinner</li>
-                    <li>Snacks</li>
-                    <li>Desserts</li>
-                </ul>
-            </section>
-<!--Maybe put an image for each section-->
-            <hr>
-         </main>
-        </div>
-
-         <!--Footer-->
-         <footer>
-            <p>Contact us at: <a href="myemail">samantha.cray@uri.edu</a></p>
-         </footer>
-    </body>
+  </div>
+</body>
 </html>
+
