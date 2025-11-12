@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uplift Bite</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="upliftbite.js"></script>
+</head>
+<body>
+  <div class="page-wrapper"> <!-- blue border -->
+
+    <div class="header"> <!-- logo + nav inside blue border -->
+      <img src="Cray_Logo.png" alt="Uplift Bite logo" width="120" style="border-radius:30%;">
+      <nav>
+        <a href="Features1.html">Features</a>
+        <a href="Recipes&Tips1.html">Recipes & Tips</a>
+      </nav>
+    </div>
+
+    <div class="content-box"> <!-- white rectangle content -->
+      <h1 style="text-align:center;">Welcome to Uplift Bite</h1>
+      <p style="text-align:center;">Your go-to place for building healthier habits through simple recipes, smart tracking tools, and motivation that works.</p>
+
+      <h2 style="text-align:center;">Daily Motivation</h2>
+      <p id="dailyQuote" style="text-align:center; font-style: italic;"></p>
+    </div>
+
+    <footer>
+      <p>Contact us: <a href="mailto:samantha.cray@uri.edu">samantha.cray@uri.edu</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>
+
